@@ -1,7 +1,13 @@
 FROM golang:1.18
-WORKDIR /Users/aliciabarczak/Desktop/Academy/Academy_exercises/snoopy-stumpy
+
+WORKDIR /usr/src/banana
+
 COPY . .
-RUN go build -o /bin/server ./main.go
-CMD ["./bin/server"]
+
+RUN go build -o ./apple main.go
+
+EXPOSE 3000
+
+CMD ["./apple"]
 
 
