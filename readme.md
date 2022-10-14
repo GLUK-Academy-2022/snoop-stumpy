@@ -8,7 +8,6 @@ Snoop & Stumpy is a simple API created with Go and the Go Fiber API.
  2. Install Go Extension from VSCode
  
 ## Run the app
-1. Clone repo from using the following command `git clone https://github.com/GLUK-Academy-2022/snoopy-stumpy.git` 
-2. CD into the repo
-3. Run `go run main.go`
-4. Visit the URL shown in the terminal on your local host
+1. Pull the required image from Dockerhub by executing the the "Docker Pull Command" and following the instructions conatined on the following [page] (https://hub.docker.com/r/aliciabarczak/snoopy-stumpy)
+3. Run the following command to run the image `docker run -p <enter your desired local port>:3000  aliciabarczak/snoopy-stumpy:<current version>` 
+4. Visit the following URL: `http://127.0.0.1:<local port>`
